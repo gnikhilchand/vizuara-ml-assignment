@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const API_URL = 'http://localhost:8000';
-const API_URL = 'https://vizuara-backend-xyz.onrender.com';
+const API_URL = 'https://vizuara-ml-assignment.onrender.com/';
 
 export const uploadDataset = async (file) => {
   const formData = new FormData();
